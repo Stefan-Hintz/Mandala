@@ -23,12 +23,7 @@
 }
 
 - (void)drawRect:(NSRect)dirtyRect
-{
-	// Background
-//	NSBezierPath *bezierPath = [NSBezierPath bezierPathWithRect:dirtyRect];
-//	[[NSColor whiteColor] set];
-//	[bezierPath fill];
-	
+{	
 	// Lines
 	NSPoint center = NSMakePoint(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
 
