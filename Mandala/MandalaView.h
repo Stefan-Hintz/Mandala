@@ -7,8 +7,8 @@
 
 @interface MandalaView : NSView
 
-@property (nonatomic, assign) NSInteger count;
-@property (nonatomic, assign) NSInteger count2;
+@property (nonatomic, assign) NSInteger polygonCount;
+@property (nonatomic, assign) NSInteger edgeCount;
 
 - (IBAction)update:(id)sender;
 

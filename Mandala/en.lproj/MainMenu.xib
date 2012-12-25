@@ -1420,7 +1420,6 @@
 							<string key="NSFrame">{{378, 20}, {32, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="588171892">
@@ -2127,67 +2126,83 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.count</string>
+						<string key="label">value: values.polygonCount</string>
 						<reference key="source" ref="387493494"/>
 						<reference key="destination" ref="327134584"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="387493494"/>
 							<reference key="NSDestination" ref="327134584"/>
-							<string key="NSLabel">value: values.count</string>
+							<string key="NSLabel">value: values.polygonCount</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.count</string>
+							<string key="NSKeyPath">values.polygonCount</string>
+							<dictionary key="NSOptions">
+								<boolean value="NO" key="NSAllowsEditingMultipleValuesSelection"/>
+								<boolean value="NO" key="NSConditionallySetsEnabled"/>
+							</dictionary>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">651</int>
+					<int key="connectionID">707</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.count</string>
+						<string key="label">value: values.polygonCount</string>
 						<reference key="source" ref="1056891252"/>
 						<reference key="destination" ref="327134584"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="1056891252"/>
 							<reference key="NSDestination" ref="327134584"/>
-							<string key="NSLabel">value: values.count</string>
+							<string key="NSLabel">value: values.polygonCount</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.count</string>
+							<string key="NSKeyPath">values.polygonCount</string>
+							<dictionary key="NSOptions">
+								<boolean value="NO" key="NSAllowsEditingMultipleValuesSelection"/>
+								<boolean value="NO" key="NSConditionallySetsEditable"/>
+							</dictionary>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">653</int>
+					<int key="connectionID">711</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.count2</string>
+						<string key="label">value: values.edgeCcount</string>
 						<reference key="source" ref="2832394"/>
 						<reference key="destination" ref="327134584"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="2832394"/>
 							<reference key="NSDestination" ref="327134584"/>
-							<string key="NSLabel">value: values.count2</string>
+							<string key="NSLabel">value: values.edgeCcount</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.count2</string>
+							<string key="NSKeyPath">values.edgeCcount</string>
+							<dictionary key="NSOptions">
+								<boolean value="NO" key="NSAllowsEditingMultipleValuesSelection"/>
+								<boolean value="NO" key="NSConditionallySetsEnabled"/>
+							</dictionary>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">702</int>
+					<int key="connectionID">712</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.count2</string>
+						<string key="label">value: values.edgeCcount</string>
 						<reference key="source" ref="619533650"/>
 						<reference key="destination" ref="327134584"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="619533650"/>
 							<reference key="NSDestination" ref="327134584"/>
-							<string key="NSLabel">value: values.count2</string>
+							<string key="NSLabel">value: values.edgeCcount</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.count2</string>
+							<string key="NSKeyPath">values.edgeCcount</string>
+							<dictionary key="NSOptions">
+								<boolean value="NO" key="NSAllowsEditingMultipleValuesSelection"/>
+								<boolean value="NO" key="NSConditionallySetsEditable"/>
+							</dictionary>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">703</int>
+					<int key="connectionID">714</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3801,7 +3816,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">703</int>
+			<int key="maxID">714</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
